@@ -1,0 +1,9 @@
+cd /var/www/html
+ls -la
+nano index.php
+git status
+sudo systemctl restart apache2
+rm -rf /var/www/html/backup_antigo
+chmod 777 /var/www/html/uploads
+cat /etc/passwd
+history -c
